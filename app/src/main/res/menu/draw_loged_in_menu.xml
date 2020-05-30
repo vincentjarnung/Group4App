@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profil"
+            android:icon="@drawable/person"
+            android:title="Profil" />
+        <item
+            android:id="@+id/SeGym"
+            android:icon="@drawable/ic_fitness"
+            android:title="Se Gym" />
+        <item
+            android:id="@+id/bookPass"
+            android:icon="@drawable/ic_train"
+            android:title="Bokade Pass" />
+        <item
+            android:id="@+id/findPass"
+            android:icon="@drawable/ic_find"
+            android:title="Hitta Pass" />
+        <item
+            android:id="@+id/onlineTraing"
+            android:icon="@drawable/ic_onlinetrain"
+            android:title="Online Träning" />
+
+
+    </group>
+</menu>
